@@ -1,0 +1,349 @@
+/*
+WEB Site For: www.dpichemical.com;
+Developed & Design by: Momin Riyadh ;
+Companay/Agency/Firm name: Opensource-It;
+Company Web Address: www.opensourcit.net;
+Phone: +880 1715836598;
+*/
+
+/***********************************************************************************************/
+/* default css  */
+/***********************************************************************************************/
+
+body{
+	font-family: 'PT Serif', serif;
+  	background: url(../img/bg.png) repeat scroll 0 0;
+}
+
+h1,h2,h3,h4{
+  color: #454545;
+}
+
+a:focus,:hover{
+  outline: none;
+}
+
+p{
+  color: #333333;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.9em;
+}
+
+a:focus,:hover{
+  outline: none;
+}
+
+/***********************************************************************************************/
+/* footer css */
+/***********************************************************************************************/
+
+.footer-bottom{
+  background: url(../img/footer-bg.jpg) repeat scroll 0 0;
+  border-radius:5px;
+  margin-bottom: 5px;
+}
+
+.footer-bottom p{
+  color:#ffffff;
+}
+
+.copyright-text{
+  padding: 50px 10px 15px 15px;
+  float:right;
+}
+
+.copyright-text p{
+  color:#ffffff;
+  font-size: 16px;
+}
+
+/***********************************************************************************************/
+/* product CSS */
+/***********************************************************************************************/
+
+.product h2{
+
+  background: none repeat scroll 0 0 #118670;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.product-capacity h2,.chemical{
+  background: none repeat scroll 0 0 #118670;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+
+/***********************************************************************************************/
+/* Header CSS */
+/***********************************************************************************************/
+
+.header-contact{
+	margin: 25px 25px 0 0;
+
+}
+
+.header-contact p{
+	 font-size: 14px;
+	letter-spacing: 4px;
+	line-height: 16px;
+ }
+
+ .logo{
+ 	 margin:20px 0 0 10px;
+ }
+
+
+/***********************************************************************************************/
+/*Contact Header*/
+/***********************************************************************************************/
+        
+       
+ .contact-header{
+    background-color: #40403D;
+    border-radius: 4px;
+    min-height: 150px;
+ }
+
+ .contact-header h1{
+      color:#ffffff;
+      font-size: 64px;
+      padding:25px 0;
+ }
+
+ .contact-header span{
+    color:#C80032;
+ }
+
+.my-bar{
+  background: none repeat scroll 0 0 #40403D;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 15px;
+}
+.my-address{
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+.left-contact{
+  margin-top: 55px;
+}
+
+/***********************************************************************************************/
+/* Heading Design */
+/***********************************************************************************************/
+
+.item h2{
+  color:#ffffff;
+}
+
+
+/***********************************************************************************************/
+/* Developer Text */
+/***********************************************************************************************/
+
+.developer{
+  background: none repeat scroll 0 0 #2D2D2D;
+  border-radius: 0 0 5px 5px;
+  margin-top: -8px;
+  padding: 2px;
+}
+.developer h5{
+  color:#848FA1;
+  display: block;
+  
+}
+.developer h5 a{
+   padding: 10px 30px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #fa3649; /* layer fill content */
+  -moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+  font-color:#ffffff;
+  border:none;
+  color:#ffffff;
+  margin-left:10px;
+  margin-top: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform:uppercase;
+  display: inline-block;
+}
+
+.developer h5 a:hover{
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #FA4137; /* layer fill content */
+  -moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+  color:#ffffff;
+  border:none;
+  display: inline-block;
+}
+
+.product-text{
+  color:#8F573E;
+}
+
+
+/***********************************************************************************************/
+/* Navigation / Menu / CSS  */
+/***********************************************************************************************/
+
+#nav-trigger {
+  display: none;
+  text-align: center; }
+  #nav-trigger span {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #c80032;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; }
+    #nav-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";
+      border-left: solid 10px transparent;
+      border-top: solid 10px #fff;
+      border-right: solid 10px transparent; }
+    #nav-trigger span:hover {
+      background-color: #af002c; }
+    #nav-trigger span.open:after {
+      border-left: solid 10px transparent;
+      border-top: none;
+      border-bottom: solid 10px #fff;
+      border-right: solid 10px transparent; }
+
+nav {
+  margin-bottom: 20px; 
+}
+
+
+nav#nav-main {
+    background-color: #C80032;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+nav#nav-main ul {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  nav#nav-main li {
+    display: inline-block;
+    border-right: solid 1px #950025;
+    padding: 0 5px; }
+    nav#nav-main li:last-child {
+      border-right: none; }
+  nav#nav-main a {
+    display: block;
+    color: white;
+    padding: 10px 30px; 
+  text-decoration: none;
+}
+    nav#nav-main a:hover {
+      background-color: #af002c;
+      color: #fff; 
+     text-decoration: none;
+  }
+
+  .active {
+      background-color: #af002c;
+      color: #fff; 
+      text-decoration: none;
+      border-radius: 5px;
+  }
+
+nav#nav-mobile {
+  position: relative;
+  display: none; 
+  z-index: 200;
+
+}
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #c80032; }
+  nav#nav-mobile li {
+    display: block;
+    padding: 5px 0;
+    margin: 0 5px;
+    border-bottom: solid 1px #950025; }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {
+    display: block;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none; 
+  }
+    nav#nav-mobile a:hover {
+      background-color: #af002c;
+      color: #fff; 
+      text-decoration: none;
+    }
+
+/* =Sections
+-------------------------------------------------------------- */
+section h1 {
+  margin-bottom: 10px; }
+
+section p {
+  margin-bottom: 30px; }
+  section p:last-child {
+    margin-bottom: 0; }
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; } }
+
+
+
+/*****************************************************************/
+/* Media Queries */
+/*****************************************************************/
+@media screen and (max-width: 768px) {
+  
+
+}
