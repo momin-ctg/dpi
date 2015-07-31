@@ -2,4 +2,4 @@
 
 Full Project Developed For Chemical Industries
 
-[dpi](http://www.opensourcit.net/portfolio/dpi/)
+[DPI Chemical Ind.](http://www.opensourcit.net/portfolio/dpi/)
